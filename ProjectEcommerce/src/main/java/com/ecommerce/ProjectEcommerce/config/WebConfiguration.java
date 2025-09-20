@@ -17,7 +17,7 @@ public class WebConfiguration implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
                 // ✅ Change from allowedOrigins("*") to allowedOriginPatterns("*") for wildcard
-                .allowedOriginPatterns("*")
+                .allowedOriginPatterns("https://fanciful-squirrel-c71a58.netlify.app")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true)
