@@ -36,10 +36,3 @@ This project implements essential ecommerce features like product management, ca
 - Postman (for API testing)  
 
 ---
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
